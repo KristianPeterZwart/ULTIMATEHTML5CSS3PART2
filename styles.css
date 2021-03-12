@@ -1,32 +1,25 @@
-body {
-    margin: 10px;
-    height: 200vh;
-}
-
-.boxes {
-    border: 3px solid lightgrey
-    position: relative;
-}
-
-.box {
+.avatar {
     width: 5rem;
     height: 5rem;
+    background-color: gold;
+    float: left;
+    margin-right: 0.5rem;
 }
 
-.box-one {
-    background: gold;
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
-.box-two {
-    background: tomato;
-    position: fixed;
-    top: 0;
-    left: 2rem;
-    right: 2rem;
-    width: auto;
-    z-index: 99999;
+
+
+.tweet {
+    border: 3px solid lightgrey;
 }
 
-.box-three {
-    background: dodgerblue;
+.clear {
+    clear: both;
 }
+
