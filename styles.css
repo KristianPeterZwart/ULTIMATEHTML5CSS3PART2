@@ -1,4 +1,7 @@
-p {
-    padding: 10px 20px; /* 10 20 10 20  */
-    border: 5px solid gold;
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    padding: 20px;
+    border: 10px solid orange;
 }
