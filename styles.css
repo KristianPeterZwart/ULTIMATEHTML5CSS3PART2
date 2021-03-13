@@ -1,25 +1,10 @@
-.avatar {
-    width: 5rem;
-    height: 5rem;
-    background-color: gold;
-    float: left;
-    margin-right: 0.5rem;
-}
-
-
-.clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
-
-
-.tweet {
+.container {
     border: 3px solid lightgrey;
 }
 
-.clear {
-    clear: both;
+.box {
+    width: 5rem;
+    height: 5rem;
+    background: gold;
+    margin: 1rem;
 }
-
