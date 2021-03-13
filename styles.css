@@ -8,8 +8,8 @@
 }
 
 .box {
-    flex-basis: 5rem;
-    flex-grow: 1;
+    flex-basis: 15rem;
+    flex: 1 1 15rem;
     width: 5rem;
     height: 5rem;
     background: gold;
