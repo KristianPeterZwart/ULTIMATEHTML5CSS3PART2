@@ -1,44 +1,15 @@
-html {
-    font-size: 62.5%;
-  }
-  
-  body {
+.body {
+    margin: 10px;
+}
+
+p {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.6rem;
-  }
-  
-  nav {
-    background: #000;
-    padding: .7rem
-  }
-  
-  nav ul {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    padding-left: 0;
-    text-align: center;
-  }
-  
-  nav li {
-    margin: .5rem 0;
-  }
-  
-  nav a {
-    color: #ccc;
-    text-decoration: none;
-  }
-  
-  nav a:hover {
-    color: #fff;
-  }
-  
-  @media screen and (min-width: 768px) {
-    nav ul {
-      flex-direction: row;
-      justify-content: flex-end;
-    }
-    nav li {
-      margin: 0 1rem;
-    }
-  }
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1rem;
+    color: #333;
+}
+
+h1 {
+    font-family: Georgia, "Times New Roman", Times,;
+}
