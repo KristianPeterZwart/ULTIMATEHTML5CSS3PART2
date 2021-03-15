@@ -16,5 +16,20 @@
     .container {
         flex-direction: row;
     }
-}
 
+    @media screen and (min-width: 900px) {
+        .container {
+            flex-direction: row;
+        }
+        .box {
+            background: white;
+        }
+
+@media print {
+    body {
+        font-size: 12pt;
+    }
+
+    .box {
+        padding: 0.5cm;
+    }
